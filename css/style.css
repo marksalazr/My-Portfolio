@@ -1,0 +1,135 @@
+*  {
+    box-sizing: border-box;
+    margin: 0px;
+    padding-bottom: 1%;
+ 
+}
+
+.header { 
+    background-color: rgb(75, 107, 176); 
+    display: "flex";
+    background-image: url(../images/asfalt-dark.png);
+    color: antiquewhite; 
+
+}
+
+.caterpie::after {
+    content: url(../images/caterpie-cow.png);
+}
+
+.container {
+    margin-left: 20px;
+
+}
+
+#story{
+ 
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: large;
+ color: antiquewhite;
+ background-color: rgb(30, 134, 186);
+ background-image: url(../images/aircraftc.jpeg);
+ background-size: cover;
+ background-blend-mode: multiply;
+ padding-top: 200px;
+ padding-bottom: 200px;
+ text-align: center;
+ padding-left: 100px;
+ padding-right: 100px;
+ 
+ 
+
+}
+
+
+article {
+
+    padding-top: 20px;
+    border-top-width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.card { 
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    src: url(https://github.com/marksalazr/Horieson-Refactoring);
+    
+}
+.card:hover {
+    color: bisque;
+    background-color: black;
+    transform: scale(1.1);
+    transition: all 1.5s ease;
+    cursor: pointer;
+}
+
+.card-image { 
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.html{ 
+
+background-image: url(../images/html\ logo.png)
+
+}
+.css {
+    background-image:url(../images/css\ icon.webp) ;
+    
+   
+
+}
+
+.js { 
+    background-image:url(../images/JavaScript\ Logo.jpeg) ;
+    
+
+}
+
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.09);
+
+
+}
+
